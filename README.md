@@ -9,6 +9,7 @@ This trading strategy is built on the concepts described in the [paper](http://c
 * featureNormalize.py
 * checkRRLGradient.py
 * getNumericalGradient.py
+* testDAX.py
 * retDAX.txt
 * DAX.txt
 
