@@ -12,4 +12,4 @@ This trading strategy is built on the concepts described in the [paper](http://c
 * retDAX.txt
 * DAX.txt
 
-
+Here checkRRLGradient.py and getNumericalGradient.py are the utility functions.
