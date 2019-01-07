@@ -10,15 +10,10 @@ One commonly used metric in financial engineering is Sharpe's ratio. For this pr
 
 [Reward](/rewardFunction.py) - This file calculates the sharpe ratios for all returns over window size M. 
 
-* sharpeRatio.py
-* updateFt.py
-* rewardFunction.py
-* costFunction.py
-* featureNormalize.py
-* checkRRLGradient.py
-* getNumericalGradient.py
-* testDAX.py
-* retDAX.txt
-* DAX.txt
+## Policy:
+Here the trader function Ft, is basically a neuron activated with ``tanh`` with the output between -1 and 1. The value of Ft determines the current action.
 
-Here checkRRLGradient.py and getNumericalGradient.py are the utility functions.
+[Update Ft](/updateFt.py) - This file updates the Ft for the whole time interval.
+
+## Gradient Ascent:
+The optimization function needs to maximize the sharpe ratio. Hence, we require gradient ascent.
