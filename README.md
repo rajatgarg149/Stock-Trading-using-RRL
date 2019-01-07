@@ -5,8 +5,11 @@ Key Elements : Utility Function, Policy and Gradient Ascent
 
 ## Utiliy Function:
 One commonly used metric in financial engineering is Sharpe's ratio. For this project, sharpe ratio is our utility (or reward) function. The trader will attempt to maximize the sharpe's ratio which technically represents investment strategies with less volatile profit. 
+
 [Sharpe ratio](/sharpeRatio.py) - This file calculates sharpe ratio for given investment returns.
+
 [Reward](/rewardFunction.py) - This file calculates the sharpe ratios for all returns over window size M. 
+
 * sharpeRatio.py
 * updateFt.py
 * rewardFunction.py
